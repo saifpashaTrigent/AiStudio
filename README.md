@@ -20,11 +20,11 @@ English | [中文](./i18n/README-ZH.md) | [日本語](./i18n/README-JA.md) | [�
 
 Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 
-1. Install Flowise
+1. Install AI Studio
     ```bash
     npm install -g flowise
     ```
-2. Start Flowise
+2. Start AI Studio
 
     ```bash
     npx flowise start
@@ -42,7 +42,7 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 
 ### Docker Compose
 
-1. Clone the Flowise project
+1. Clone the AI Studio project
 2. Go to `docker` folder at the root of the project
 3. Copy `.env.example` file, paste it into the same location, and rename to `.env` file
 4. `docker compose up -d`
@@ -68,7 +68,7 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 
 ## 👨‍💻 Developers
 
-Flowise has 3 different modules in a single mono repository.
+AI Studio has 3 different modules in a single mono repository.
 
 -   `server`: Node backend to serve API logics
 -   `ui`: React frontend
@@ -148,11 +148,11 @@ FLOWISE_PASSWORD=1234
 
 ## 🌱 Env Variables
 
-Flowise support different environment variables to configure your instance. You can specify the following variables in the `.env` file inside `packages/server` folder. Read [more](https://github.com/FlowiseAI/Flowise/blob/main/CONTRIBUTING.md#-env-variables)
+AI Studio support different environment variables to configure your instance. You can specify the following variables in the `.env` file inside `packages/server` folder. Read [more](https://github.com/FlowiseAI/Flowise/blob/main/CONTRIBUTING.md#-env-variables)
 
 ## 📖 Documentation
 
-[Flowise Docs](https://docs.flowiseai.com/)
+[AI Studio Docs](https://docs.flowiseai.com/)
 
 ## 🌐 Self Host
 
@@ -192,9 +192,9 @@ Deploy Flowise self-hosted in your existing infrastructure, we support various [
 
       </details>
 
-## ☁️ Flowise Cloud
+## ☁️ AI Studio Cloud
 
-[Get Started with Flowise Cloud](https://flowiseai.com/)
+[Get Started with AI Studio Cloud](https://flowiseai.com/)
 
 ## 🙋 Support
 
