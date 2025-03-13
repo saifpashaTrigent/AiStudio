@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://github.com/saifpashaTrigent/AiStudio/blob/master/images/flowise.png"></a>
 
-# Flowise - Build LLM Apps Easily
+# Trigent - AI Studio
 
 [![Release Notes](https://img.shields.io/github/release/FlowiseAI/Flowise)](https://github.com/FlowiseAI/Flowise/releases)
 [![Discord](https://img.shields.io/discord/1087698854775881778?label=Discord&logo=discord)](https://discord.gg/jbaHfsRVBW)
