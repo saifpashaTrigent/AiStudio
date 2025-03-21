@@ -3,10 +3,10 @@
 <img width="100%" src="https://github.com/saifpashaTrigent/AiStudio/blob/master/images/flowise.png"></a>
 
 # Trigent - AI Studio
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://in.linkedin.com/company/trigent-software)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@trigent-software)
 [![X](https://img.shields.io/badge/Trigent-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/TrigentSoftware)
-
 
 <h3>Drag & drop UI to build your customized LLM flow using Trigent AI Studio</h3>
 <a href="https://github.com/saifpashaTrigent/AiStudio">
@@ -190,7 +190,7 @@ Deploy Flowise self-hosted in your existing infrastructure, we support various [
 
 ## ☁️ AI Studio Cloud
 
-[Get Started with AI Studio Cloud](https://flowiseai.com/)
+[Get Started with AI Studio Cloud](https://trigent.com/)
 
 ## 🙋 Support
 

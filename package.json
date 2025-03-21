@@ -2,7 +2,7 @@
     "name": "flowise",
     "version": "2.2.6-hotfix.1",
     "private": true,
-    "homepage": "https://flowiseai.com",
+    "homepage": "https://trigent.com",
     "workspaces": [
         "packages/*",
         "flowise",
