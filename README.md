@@ -17,9 +17,11 @@
 Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 
 1. Install AI Studio
+
     ```bash
     npm install -g flowise
     ```
+
 2. Start AI Studio
 
     ```bash
@@ -48,9 +50,11 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
 ### Docker Image
 
 1. Build the image locally:
+
     ```bash
     docker build --no-cache -t flowise .
     ```
+
 2. Run image:
 
     ```bash
@@ -58,6 +62,7 @@ Download and Install [NodeJS](https://nodejs.org/en/download) >= 18.15.0
     ```
 
 3. Stop image:
+
     ```bash
     docker stop flowise
     ```
@@ -80,25 +85,25 @@ AI Studio has 3 different modules in a single mono repository.
 
 ### Setup
 
-1.  Clone the repository
+1. Clone the repository
 
     ```bash
     git clone https://github.com/FlowiseAI/Flowise.git
     ```
 
-2.  Go into repository folder
+2. Go into repository folder
 
     ```bash
     cd Flowise
     ```
 
-3.  Install all dependencies of all modules:
+3. Install all dependencies of all modules:
 
     ```bash
     pnpm install
     ```
 
-4.  Build all the code:
+4. Build all the code:
 
     ```bash
     pnpm build
@@ -108,12 +113,12 @@ AI Studio has 3 different modules in a single mono repository.
     <summary>Exit code 134 (JavaScript heap out of memory)</summary>  
       If you get this error when running the above `build` script, try increasing the Node.js heap size and run the script again:
 
-        export NODE_OPTIONS="--max-old-space-size=4096"
-        pnpm build
+    export NODE_OPTIONS="--max-old-space-size=4096"
+    pnpm build
 
     </details>
 
-5.  Start the app:
+5. Start the app:
 
     ```bash
     pnpm start
@@ -121,11 +126,11 @@ AI Studio has 3 different modules in a single mono repository.
 
     You can now access the app on [http://localhost:3000](http://localhost:3000)
 
-6.  For development build:
+6. For development build:
 
-    -   Create `.env` file and specify the `VITE_PORT` (refer to `.env.example`) in `packages/ui`
-    -   Create `.env` file and specify the `PORT` (refer to `.env.example`) in `packages/server`
-    -   Run
+    - Create `.env` file and specify the `VITE_PORT` (refer to `.env.example`) in `packages/ui`
+    - Create `.env` file and specify the `PORT` (refer to `.env.example`) in `packages/server`
+    - Run
 
         ```bash
         pnpm dev
@@ -172,7 +177,7 @@ Deploy Flowise self-hosted in your existing infrastructure, we support various [
 
     -   [HuggingFace Spaces](https://docs.flowiseai.com/deployment/hugging-face)
 
-        <a href="https://huggingface.co/spaces/FlowiseAI/Flowise"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="HuggingFace Spaces"></a>
+        ` <a href="https://huggingface.co/spaces/FlowiseAI/Flowise"><img src="https://huggingface.co/datasets/huggingface/badges/raw/main/open-in-hf-spaces-sm.svg" alt="HuggingFace Spaces">``</a> `
 
     -   [Elestio](https://elest.io/open-source/flowiseai)
 
@@ -186,7 +191,7 @@ Deploy Flowise self-hosted in your existing infrastructure, we support various [
 
         [![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploy.png)](https://repocloud.io/details/?app_id=29)
 
-      </details>
+    </details>
 
 ## ☁️ AI Studio Cloud
 
@@ -198,11 +203,7 @@ Feel free to ask any questions, raise problems, and request new features in [dis
 
 ## 🙌 Contributing
 
-Thanks go to these awesome contributors
-
-<a href="https://github.com/FlowiseAI/Flowise/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=FlowiseAI/Flowise" />
-</a>
+Thanks go to these awesome contributors `<a href="https://github.com/FlowiseAI/Flowise/graphs/contributors">`
 
 See [contributing guide](CONTRIBUTING.md). Reach out to us at [Discord](https://discord.gg/jbaHfsRVBW) if you have any questions or issues.
 [![Star History Chart](https://api.star-history.com/svg?repos=FlowiseAI/Flowise&type=Timeline)](https://star-history.com/#FlowiseAI/Flowise&Date)

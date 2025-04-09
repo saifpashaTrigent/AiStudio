@@ -171,7 +171,7 @@ export const defaultThemeConfig = {
             textColor: '#303235',
             text: 'Powered by',
             company: 'Flowise',
-            companyLink: 'https://flowiseai.com'
+            companyLink: 'https://trigent.com'
         }
     }
 }
